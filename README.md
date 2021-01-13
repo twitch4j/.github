@@ -2,8 +2,8 @@
 
 This is global templates for Twitch4J organization repositories.
 
-Looking for Java Documentation: https://twitch4.github.io/javadoc
-Looking for Documentation: https://twitch4.github.io/docs
+- Looking for Java Documentation: https://twitch4.github.io/javadoc
+- Looking for Documentation: https://twitch4.github.io/docs
 
 ## Feel free to join our discord:
 
