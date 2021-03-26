@@ -1,6 +1,6 @@
 ---
 name: New Feature
-about: Pulling new features
+about: adds a new feature
 labels: feature
 ---
 
@@ -11,16 +11,12 @@ labels: feature
 * [ ] There is no duplication of this feature
 
 #### Change List
-<!-- list all added features -->
+<!-- list all added features, please try to keep merge requests as small as possible and create multiple prs for multiple features -->
 1. 
 2.
 3.
 
 #### Additional notes
 <!-- 
-  if you have some additional notes please describe it
-  if this pr is reference of issue add 
-  Closes #<issue_numer> or Reference #<issue_number>
-  when `iussue_numer` is for issue / pull request
-  multiple references are welcome.
+  if you have any additional notes please add them here.
 -->

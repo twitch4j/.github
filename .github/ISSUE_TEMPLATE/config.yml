@@ -1,5 +1,5 @@
 blank_issue_enabled: false
 contact_links:
-  - name: Ask the question
-    about: Issue tracker is not for question. Please go to the Discord channel asking question.
-    url: https://discord.gg/FQ5vgW3
+- name: Questions / Support
+  about: GitHub issues are not the right place to ask question, please join our discord community for questions / support.
+  url: https://discord.gg/FQ5vgW3

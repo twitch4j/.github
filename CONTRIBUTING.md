@@ -1,3 +1,5 @@
-# Please follow this contributing guidelines at
+# Contribution Guidelines
 
-https://twitch4j.github.io/docs/contribution/
+Please check out our contribution guidelines at:
+
+- https://twitch4j.github.io/docs/contribution/

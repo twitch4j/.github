@@ -1,6 +1,6 @@
 ---
 name: Bugfix
-about: Pulling bug fixes
+about: resolves a bug
 labels: bug
 ---
 
@@ -10,16 +10,12 @@ labels: bug
 * [ ] No bugs have been spotted
 
 #### Bugs fixed
-<!-- list all bugs fixed -->
+<!-- list all bugs fixed, please reference gh issues if possible. Please write it as `Closes #<issue_numer>` to automatically close the issues once this gets merged. -->
 1. 
 2. 
 3. 
 
 #### Additional notes
 <!-- 
-  if you have some additional notes please describe it
-  if this pr is reference of issue add 
-  Closes #<issue_numer> or Reference #<issue_number>
-  when `iussue_numer` is for issue / pull request
-  multiple references are welcome.
+  if you have any additional notes please add them here.
 -->
