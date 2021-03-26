@@ -9,16 +9,19 @@ labels:
 ## Bug Report
 
 #### Prerequisites
+
 * [ ] If this is a question/suggestion, I have already considered discuss it on [Discord Server](https://discord.gg/FQ5vgW3)
 * [ ] This issue specifically has something to do with Twitch4J
 * [ ] I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
 
 #### Current Behavior
+
 A clear and concise description of the behavior.
 
 #### Code Snippet / Exception / Log
 
 A snippet of your code along with a exception / logs if available
+
 #### Expected Behavior
 
 A clear and concise description of what you expected to happen (or code).
@@ -38,6 +41,7 @@ A clear and concise description of what you expected to happen (or code).
 ```
 
 #### Environment
+
 - IDE: <!-- e.g. IntelliJ, NetBeans, VSCode, Eclipse -->
 - Java Version: <!-- e.g. 1.8, 11 -->
 - Build tools with the version: <!-- e.g. Gradle 6.7, Maven 3.3.9 -->

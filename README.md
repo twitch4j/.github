@@ -1,6 +1,6 @@
 # Twitch4J - Global Template Files
 
-This repository holds the templates for all projectsi n the `Twitch4J` organization.
+This repository holds the templates for all projects in the `Twitch4J` organization.
 
 - Documentation: https://twitch4.github.io/docs
 - JavaDocs: https://twitch4.github.io/javadoc
