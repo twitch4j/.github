@@ -1,5 +1,5 @@
 blank_issue_enabled: false
 contact_links:
-- name: Questions / Support
-  about: GitHub issues are not the right place to ask question, please join our discord community for questions / support.
-  url: https://discord.gg/FQ5vgW3
+  - name: Questions and Support
+    about: GitHub issues are not the right place to ask question, please join our discord community for questions and/or support.
+    url: https://discord.gg/FQ5vgW3

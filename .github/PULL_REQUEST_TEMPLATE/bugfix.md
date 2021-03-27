@@ -1,11 +1,13 @@
 ---
 name: Bugfix
 about: resolves a bug
-labels: bug
+labels: 
+  - bug
 ---
 
 ### Checklist
 <!-- specified your IDE and OS platform -->
+
 * [ ] Code has been tested in `<IDE>` and `<os_platform>`
 * [ ] No bugs have been spotted
 

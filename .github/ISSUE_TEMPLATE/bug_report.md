@@ -2,8 +2,7 @@
 name: "🐛 Bug Report"
 about: "Something isn't working as expected? 🤔"
 labels: 
-  - bug/minor
-  - bug/major
+  - bug
 ---
 
 ## Bug Report
@@ -42,14 +41,13 @@ A clear and concise description of what you expected to happen (or code).
 
 #### Environment
 
-- IDE: <!-- e.g. IntelliJ, NetBeans, VSCode, Eclipse -->
-- Java Version: <!-- e.g. 1.8, 11 -->
-- Build tools with the version: <!-- e.g. Gradle 6.7, Maven 3.3.9 -->
-- OS: <!-- e.g. OSX 10.13.4, Windows 10 -->
+* IDE: <!-- e.g. IntelliJ, NetBeans, VSCode, Eclipse -->
+* Java Version: <!-- e.g. 1.8, 11 -->
+* Build tools with the version: <!-- e.g. Gradle 6.7, Maven 3.3.9 -->
+* OS: <!-- e.g. OSX 10.13.4, Windows 10 -->
 
 #### Possible Solution
 <!--- A suggestion for a fix, if you have a idea -->
 
 #### Additional Context/Screenshots
-
 <!-- Add any other context about the problem here. -->

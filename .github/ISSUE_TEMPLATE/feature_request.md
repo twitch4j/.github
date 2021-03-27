@@ -3,12 +3,11 @@ name: "🚀 Feature Request"
 about: "I have a suggestion!"
 labels:
   - feature
-  - enhancement
 ---
 
 ## Feature Request
 
-#### Prerequisites	
+#### Prerequisites
 
 * [ ] If this is a question/suggestion, I have already considered discuss it on [Discord Server](https://discord.gg/FQ5vgW3)
 * [ ] This issue specifically has something to do with Twitch4J	
