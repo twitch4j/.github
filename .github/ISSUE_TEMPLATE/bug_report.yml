@@ -1,0 +1,87 @@
+name: 🐛 Bug Report
+description: Something isn't working as expected? 🤔
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: If this is a question/suggestion, I have already considered discuss it on [Discord Server](https://discord.gg/FQ5vgW3)
+          required: true
+        - label: This issue specifically has something to do with Twitch4J
+          required: true
+        - label: I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
+          required: true
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Code Snippet / Exception / Log
+      description: A snippet of your code along with a exception / logs if available.
+      placeholder: |
+        Exception in thread "main" java.lang.RuntimeException: A example exception
+          at com.github.twitch4j.examples.TwitchExampleTrace.methodB(TwitchExampleTrace.java:13)
+          at com.github.twitch4j.examples.TwitchExampleTrace.methodA(TwitchExampleTrace.java:9)
+          at com.github.twitch4j.examples.TwitchExampleTrace.main(TwitchExampleTrace.java:5)
+      render:
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen (or code).
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Build Configuration
+      description: |
+        Paste your build configuration if you are using it. Please use code blocks for specific build.
+        - `xml` for `pom.xml`
+        - `groovy` for `build.gradle`
+        - `kotlin` for `build.gradle.kts`
+      placeholder: |
+        ```groovy
+        repositories {
+          mavenCentral()
+        }
+        
+        dependencies {
+          implementation 'com.github.twitch4j:twitch4j:1.3.1'
+        }
+        ```
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Present your environment specification to your project
+        - **Library Version**: The library version affected to your project. *e.g. 1.2.3, 1.3.1, 1.0.0*
+        - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
+        - **Java Version**: Your current java version. `java -version` *e.g. 16.0.1, 1.8.0_281, 11.0.10*
+        - **Build tools**: Your build tools with the version if you are using it. *e.g. Gradle 6.7, Maven 3.3.9* - if you not using it just leave it `none`
+        - **Operating system**: Your operating system where you are build it *e.g. OS 11.4.1, Windows 10, Debian 10*
+      value: |      
+        - **Library Version**: 
+        - **IDE**: 
+        - **Java Version**: 
+        - **Build tools**: 
+        - **Operating system**: 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Possible Solution
+      description: A suggestion for a fix, if you have a idea
+  - type: textarea
+    attributes:
+      label: Additional Context/Screenshots
+      description: Add any other context about the problem here.
