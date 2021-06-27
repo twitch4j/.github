@@ -34,7 +34,7 @@ body:
           at com.github.twitch4j.examples.TwitchExampleTrace.methodB(TwitchExampleTrace.java:13)
           at com.github.twitch4j.examples.TwitchExampleTrace.methodA(TwitchExampleTrace.java:9)
           at com.github.twitch4j.examples.TwitchExampleTrace.main(TwitchExampleTrace.java:5)
-      render:
+      render: txt
   - type: textarea
     attributes:
       label: Expected Behavior
