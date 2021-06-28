@@ -12,7 +12,6 @@ body:
       label: Prerequisites
       options:
         - label: If this is a question/suggestion, I have already considered discuss it on [Discord Server](https://discord.gg/FQ5vgW3)
-          required: true
         - label: This issue specifically has something to do with Twitch4J
           required: true
         - label: I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
