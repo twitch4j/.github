@@ -50,7 +50,7 @@ body:
         - **Library Version**: The library version affected to your project. *e.g. 1.2.3, 1.3.1, 1.5.0*
         - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
         - **Java Version**: Your current java version. `java -version` *e.g. 16.0.1, 1.8.0_281, 11.0.10*
-        - **Build tools**: Your build tools with the version if you are using it. *e.g. Gradle 6.7, Maven 3.3.9* - if you not using it just leave it `none`
+        - **Build tools**: Your build tools with the version if you are using it. *e.g. Gradle 6.7, Maven 3.3.9* - if you not using it just leave it *empty* or `none`
         - **Operating system**: Your operating system where you are build it *e.g. Mac OS 11 (M1), Mac OSX 10.13, Windows 10, Ubuntu 20.04*
       value: |      
         - **Library Version**: 
