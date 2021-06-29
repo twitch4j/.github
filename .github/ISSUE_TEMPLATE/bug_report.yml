@@ -13,7 +13,7 @@ body:
       description: |
         The following prerequisites must be fulfilled. If you are spot a bug please provide some details in [Environment](#environment)
       options:
-        - label: If this is a question/suggestion, I have already considered discuss it on [Discord Server](https://discord.gg/FQ5vgW3)
+        - label: If this is a question/suggestion, I have already considered discussing it on the [Discord Server](https://discord.gg/FQ5vgW3)
         - label: I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
           required: true
         - label: The bug have a spotted
