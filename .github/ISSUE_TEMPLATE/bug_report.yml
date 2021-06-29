@@ -12,12 +12,12 @@ body:
       label: Prerequisites
       description: |
         The following prerequisites must be fulfilled. 
-        If you are spot a bug please provide some details in [Environment](#issue_form_environment) field and [console output with the stacktrace](#issue_form_log_output_stacktrace) (if it is avaliable).
+        If you spot a bug, please provide some details in the [Environment](#issue_form_environment) field and [console output with the stacktrace](#issue_form_log_output_stacktrace) (if it is avaliable).
       options:
         - label: If this is a question/suggestion, I have already considered discussing it on the [Discord Server](https://discord.gg/FQ5vgW3)
         - label: I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
           required: true
-        - label: The bug have been spotted in specific environment.
+        - label: The bug has been spotted in specific environment.
           required: true
   - type: textarea
     attributes:
@@ -49,23 +49,23 @@ body:
       description: |
         Present your environment specification to your project. Required to resolving your issue.
         - **Library Version**: The library version affected to your project. *e.g. 1.2.3, 1.3.1, 1.5.0*
-        - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
+        - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is a web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
         - **Java Version**: Your current java version. `java -version` *e.g. 16.0.1, 1.8.0_281, 11.0.10*
         - **Build tools**: Your build tools with the version if you are using it. *e.g. Gradle 6.7, Maven 3.3.9* - if you not using it just leave it *empty* or `none`
-        - **Operating system**: Your operating system where you are build it *e.g. Mac OS 11 (M1), Mac OSX 10.13, Windows 10, Ubuntu 20.04*
+        - **Operating system**: The operating system where you are building and/or executing the code *e.g. Mac OS 11 (M1), Mac OSX 10.13, Windows 10, Ubuntu 20.04*
       value: |      
         - **Library Version**: 
         - **IDE**: 
         - **Java Version**: 
-        - **Build tools**: 
-        - **Operating system**: 
+        - **Build Tools**: 
+        - **Operating System**: 
     validations:
       required: true
   - type: textarea
     attributes:
       label: Build Configuration
       description: |
-        Paste your build configuration if you are using it. Please use code blocks for specific build.
+        Paste your build configuration if you are using it. Please use code blocks for specific build configs.
         - `xml` for `pom.xml`
         - `groovy` for `build.gradle`
         - `kotlin` for `build.gradle.kts`
@@ -82,7 +82,7 @@ body:
   - type: textarea
     attributes:
       label: Possible Solution
-      description: A suggestion for a fix, if you have a idea
+      description: A suggestion for a fix, if you have an idea
   - type: textarea
     attributes:
       label: Additional Context/Screenshots
