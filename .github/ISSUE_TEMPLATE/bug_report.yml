@@ -11,12 +11,13 @@ body:
     attributes:
       label: Prerequisites
       description: |
-        The following prerequisites must be fulfilled. If you are spot a bug please provide some details in [Environment](#environment)
+        The following prerequisites must be fulfilled. 
+        If you are spot a bug please provide some details in [Environment](#issue_form_environment) field and [console output with the stacktrace](#issue_form_log_output_stacktrace) (if it is avaliable).
       options:
         - label: If this is a question/suggestion, I have already considered discussing it on the [Discord Server](https://discord.gg/FQ5vgW3)
         - label: I have attempted to [look for similar issues](https://github.com/twitch4j/twitch4j/issues) already
           required: true
-        - label: The bug have a spotted
+        - label: The bug have been spotted in specific environment.
           required: true
   - type: textarea
     attributes:
@@ -46,7 +47,7 @@ body:
     attributes:
       label: Environment
       description: |
-        Present your environment specification to your project
+        Present your environment specification to your project. Required to resolving your issue.
         - **Library Version**: The library version affected to your project. *e.g. 1.2.3, 1.3.1, 1.5.0*
         - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
         - **Java Version**: Your current java version. `java -version` *e.g. 16.0.1, 1.8.0_281, 11.0.10*
