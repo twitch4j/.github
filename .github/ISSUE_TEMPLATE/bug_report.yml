@@ -61,7 +61,7 @@ body:
     attributes:
       label: Build Configuration
       description: |
-        Please write down your build configuration here if you are using a build system. Please use code blocks for syntax highlighting.
+        Please write down your build configuration here and use the correct code blocks for your build tool.
         - `xml` for `pom.xml`
         - `groovy` for `build.gradle`
         - `kotlin` for `build.gradle.kts`
@@ -78,7 +78,7 @@ body:
   - type: textarea
     attributes:
       label: Possible Solution
-      description: A suggestion on how you think this bug could/should be resolved (if you have a idea).
+      description: A suggestion on how you think this bug could/should be resolved (if you have an idea).
   - type: textarea
     attributes:
       label: Additional Context/Screenshots
