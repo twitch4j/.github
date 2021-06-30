@@ -1,0 +1,31 @@
+name: 🚀 Feature Request
+description: I have a suggestion!
+labels:
+  - feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: If this is a question/suggestion, I have already considered discussing it on the [Discord Server](https://discord.gg/FQ5vgW3)
+        - label: I have attempted to look for similar github issues already
+          required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of the feature/enhancement.
+      placeholder: e.g. I have an issue when [...]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives
+      description: A clear and concise description of any alternative solutions or features you've considered.
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Teachability, Documentation, Adoption, Migration Strategy

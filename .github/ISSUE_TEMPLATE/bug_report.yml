@@ -1,0 +1,85 @@
+name: 🐛 Bug Report
+description: Something isn't working as expected? 🤔
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: |
+        The following prerequisites must be fulfilled. 
+        If you find a bug, please provide us with some details about your [Environment](#issue_form_environment) and describe the current / expected behavior below.
+      options:
+        - label: If this is a question/suggestion, I have already considered discussing it on the [Discord Server](https://discord.gg/FQ5vgW3)
+        - label: I have attempted to look for similar github issues already
+          required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen (or code).
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A clear and concise description of the actual behavior / your issue.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Log output / Stacktrace
+      description: Log output with stacktrace if available.
+      placeholder: |
+        Exception in thread "main" java.lang.RuntimeException: A example exception
+          at com.github.twitch4j.examples.TwitchExampleTrace.methodB(TwitchExampleTrace.java:13)
+          at com.github.twitch4j.examples.TwitchExampleTrace.methodA(TwitchExampleTrace.java:9)
+          at com.github.twitch4j.examples.TwitchExampleTrace.main(TwitchExampleTrace.java:5)
+      render: txt
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        Please provide us with some information about your environment, this allows us to reproduce your issue. Most values can be optional, but you are **required** to set the library version in which this bug occurs.
+        - **Library Version**: The library version affected to your project. *e.g. 1.2.3, 1.3.1, 1.5.0*
+        - **IDE**: Your integrated development enviornment name with or without the version, or URL if it is a web-based cloud IDE. *e.g. IntelliJ IDEA 2021.2, Codeanywhere (https://codeanywhere.com/), VSCode*
+        - **Java Version**: Your current java version. `java -version` *e.g. 16.0.1, 1.8.0_281, 11.0.10*
+        - **Build tools**: Your build tools with the version if you are using it. *e.g. Gradle 6.7, Maven 3.3.9* - if you not using it just leave it *empty* or `none`
+        - **Operating system**: The operating system where you are building and/or executing the code *e.g. Mac OS 11 (M1), Mac OSX 10.13, Windows 10, Ubuntu 20.04*
+      value: |      
+        - **Library Version**: 
+        - **IDE**: 
+        - **Java Version**: 
+        - **Build Tools**: 
+        - **Operating System**: 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Build Configuration
+      description: |
+        Please write down your build configuration here and use the correct code blocks for your build tool.
+        - `xml` for `pom.xml`
+        - `groovy` for `build.gradle`
+        - `kotlin` for `build.gradle.kts`
+      placeholder: |
+        ```groovy
+        repositories {
+          mavenCentral()
+        }
+        
+        dependencies {
+          implementation 'com.github.twitch4j:twitch4j:1.3.1'
+        }
+        ```
+  - type: textarea
+    attributes:
+      label: Possible Solution
+      description: A suggestion on how you think this bug could/should be resolved (if you have an idea).
+  - type: textarea
+    attributes:
+      label: Additional Context/Screenshots
+      description: You can provide addiitonal information/context about the bug in here.
